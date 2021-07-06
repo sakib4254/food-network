@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* head section */
+.head{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f9fa;
+}
+.nav-div{
+    height: 7vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: .5s;
+}
+.nav-links:hover{
+    color: #408ec6;
+}
+#me{
+    color: #408ec6;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+.head-content-div{
+    display: flex;
+}
+.head-content-texts-div{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head-content-texts h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #575757;
+}
+#skip-text{
+    font-weight: bold;
+    /* found on google */
+    background: -webkit-linear-gradient(#4F56FB ,#3E7BFC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.head-content-texts p{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #828282;
+}
+.common-button{
+    font-size: 18px;
+    background-image: linear-gradient(90deg, #4F56FB 0%, #3E7BFC 100%);
+    border: 0;
+    padding: 20px 50px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.common-button a{
+    text-decoration: none;
+    color: white;
+}
+.head-content-image-div{
+    width: 50vw;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.head-content-image{
+    width: 40vw;
+    margin-left: 5vw;
+    overflow: hidden;
+}
+/* about section */
+.about{
+    height: 60vh;
+    background-image: url(./images/shapes/Frame\ 57.jpg);
+    background-size: cover;
+    display: flex;
+}
+.about-image-div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50vw;
+}
+.about-image{
+    height: 55vh;
+}
+.about-content-div{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-content-div h1{
+    color: #707070;
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-content-div p{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.about-content-button{
+    margin: 5vh 30% 0 30%;
+}
+/* recipe section */
+.recipe{
+    margin-top: 100px;
+}
+.recipe-header{
+    font-size: 36px;
+    font-weight: bold;
+    color: #676767;
+    margin: 40px 0;
+    text-align: center;
+}
+.recipe-description{
+    font-size: 20px;
+    color: #252525;
+    margin: 20px auto;
+    width: 700px;
+    text-align: center;
+}
+.recipe-card-main-div{
+    display: flex;
+    margin: 50px 10vw;
+    width: 80vw;
+    align-items: center;
+    justify-content: space-around;
+}
+.recipe-card-div{
+    width: 22vw;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px rgb(194, 190, 190);
+}
+.recipe-card-image{
+    width: 18vw;
+    margin: 30px 2vw;
+}
+.recipe-card-title{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 2vw;
+    color: #18191F;
+}
+.recipe-card-description{
+    font-size: 20px;
+    margin: 25px 2vw;
+    color: #18191F;
+}
+/* follower section */
+.follower{
+    margin-top: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.follower-main-div{
+    height: 250px;
+    width: 76vw;
+    box-shadow: 1px 1px 40px rgb(194, 190, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.follower-single-div{
+    height: 100px;
+    text-align: center;
+}
+.follower-single-div h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #676767;
+    margin: 10px;
+}
+.follower-single-div p{
+    font-size: 18px;
+    color: #18191F;
+}
+/* membership section */
+.member{
+    background-image: url(./images/food/Project\ Cover4.png);
+    background-size: cover;
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.member-main-div{
+    background-color: rgb(250, 250, 250, 0.9);
+    width: 60vw;
+    height: 600px;
+    text-align: center;
+    border-radius: 20px;
+}
+.member-main-div h1{
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.member-main-div h1 span{
+    font-weight: bold;
+    color: #408ec6;
+}
+.member-main-div p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.member-main-div h2{
+    font-size: 24px;
+    margin: 40px 0 80px 0;
+}
+.member-main-div button{
+    margin-top: 20px;
+}
+/* footer */
+footer{
+    height: 150px;
+    width: 100vw;
+    background-color: #676767;
+    text-align: center;
+    padding-top: 100px;
+}
+footer h1{
+    font-size: 30px;
+    color: #18191F;
+    font-weight: bold;
+}
+footer h1 span{
+    color: #408ec6;
+}
+footer p{
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+}
