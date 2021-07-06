@@ -95,7 +95,7 @@ body{
 }
 .about-image-div{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     width: 50vw;
 }
